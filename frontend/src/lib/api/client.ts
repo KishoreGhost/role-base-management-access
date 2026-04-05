@@ -1,7 +1,7 @@
 import { dispatchAuthExpired } from "@/lib/auth/events";
 import { getToken } from "@/lib/auth/token";
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://127.0.0.1:8000/api";
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? "https://role-base-management-access.onrender.com/api";
 
 let suppressNextAuthExpiredEvent = false;
 
